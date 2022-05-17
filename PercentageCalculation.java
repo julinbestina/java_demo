@@ -4,9 +4,9 @@ public class PercentageCalculation {
    public static void main(String[] args) {
       Scanner scanner= new Scanner(System.in);
       System.out.print("Enter the marks scored :");
-      float marks=scanner.nextInt();
+      float marks=scanner.nextFloat();
       System.out.print("Enter total marks :");
-      float total= scanner.nextInt();
+      float total= scanner.nextFloat();
       percentageOfMarks(marks,total);
    }
 
